@@ -25,3 +25,7 @@ c, 0 ≤ c < m  - increment
 x0, 0 ≤ x0 < m  - the seed or start value
 
 We generate the next random integer using the previous random integer, the integer constants, and the integer modulus. To get started, the algorithm requires an initial Seed, which must be provided by some means. The appearance of randomness is provided by performing modulo arithmetic..
+#Additional Information
+Inspired by the swift version of the game which can be found here https://github.com/austinzheng/swift-2048
+
+The original game can be found at http://gabrielecirulli.github.io/2048/, as can all relevant attributions. 2048 is inspired by an iOS game called "Threes", by Asher Vollmer.
